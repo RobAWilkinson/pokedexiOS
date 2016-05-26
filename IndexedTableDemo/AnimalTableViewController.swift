@@ -4,7 +4,10 @@
 //
 //  Created by Simon Ng on 17/11/14.
 //  Copyright (c) 2014 AppCoda. All rights reserved.
+
 import UIKit
+
+
 class AnimalTableViewController: UITableViewController {
     var pokeDict = [String: [Pokemon]]()
     var pokemonTitles = [String]();
@@ -35,7 +38,9 @@ class AnimalTableViewController: UITableViewController {
             pokeValues[indexPath.row].get_images()
             if pokeValues[indexPath.row].imageArray.count > 0 {
                 let spriteURL = pokeValues[indexPath.row].imageArray[0]
-                cell.imageView?.image = UIImage(data: (NSData(contentsOfURL: spriteURL))!)
+                cell.imageView.sd_setImageWithURL(spriteURL)
+
+//                cell.imageView?.image = UIImage(data: (NSData(contentsOfURL: spriteURL))!)
             }
             cell.textLabel?.text = pokeValues[indexPath.row].name.capitalizedString
             

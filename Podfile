@@ -4,10 +4,10 @@
 # use_frameworks!
 
 target 'IndexedTableDemo' do
-
+    pod 'SDWebImage', '~>3.7'
 end
 
 target 'IndexedTableDemoTests' do
-
+    
 end
 
