@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063B06791CF687E2001749FF /* Pokemon Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063B06781CF687E2001749FF /* Pokemon Details.swift */; };
 		4C1CE86E184F2A2E95D96286 /* libPods-IndexedTableDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1690672C6BD317A02954411D /* libPods-IndexedTableDemo.a */; };
 		B63536681CEE51D4009A73B7 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63536671CEE51D4009A73B7 /* Pokemon.swift */; };
 		B635366A1CEE522B009A73B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B63536691CEE522B009A73B7 /* GoogleService-Info.plist */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		063B06771CF68419001749FF /* Pokemon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Pokemon-Bridging-Header.h"; path = "IndexedTableDemo/Pokemon-Bridging-Header.h"; sourceTree = "<group>"; };
+		063B06781CF687E2001749FF /* Pokemon Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pokemon Details.swift"; sourceTree = "<group>"; };
 		1690672C6BD317A02954411D /* libPods-IndexedTableDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IndexedTableDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		924E454FC9D1321C031565FA /* Pods-IndexedTableDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndexedTableDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndexedTableDemo/Pods-IndexedTableDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B63536671CEE51D4009A73B7 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				F4A3BD711A19A1B800B64015 /* LaunchScreen.xib */,
 				F41EB49E1A19A37F00DAF540 /* AnimalTableViewController.swift */,
 				B63536671CEE51D4009A73B7 /* Pokemon.swift */,
+				063B06781CF687E2001749FF /* Pokemon Details.swift */,
 				B63536691CEE522B009A73B7 /* GoogleService-Info.plist */,
 			);
 			path = IndexedTableDemo;
@@ -304,6 +307,7 @@
 				F4A3BD691A19A1B800B64015 /* AppDelegate.swift in Sources */,
 				F41EB49F1A19A37F00DAF540 /* AnimalTableViewController.swift in Sources */,
 				B63536681CEE51D4009A73B7 /* Pokemon.swift in Sources */,
+				063B06791CF687E2001749FF /* Pokemon Details.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -52,8 +52,17 @@ class AnimalTableViewController: UITableViewController {
         if selectedCellIndexPath != nil && selectedCellIndexPath == indexPath {
             selectedCellIndexPath = nil
             
+            //push a viewcontroller programmatically
+            let nextScreen = Pokemon_Details()
+            self.navigationController?.pushViewController(nextScreen, animated: true)
+            
         } else {
             self.selectedCellIndexPath = indexPath
+            
+            //push a viewcontroller programmatically
+            let nextScreen = Pokemon_Details()
+            self.navigationController?.pushViewController(nextScreen, animated: true)
+
         }
         let cell = tableView.cellForRowAtIndexPath(indexPath)
         let imageView = UIImageView(image: UIImage.init(named: "down_chevron"))
