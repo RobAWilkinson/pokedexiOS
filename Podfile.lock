@@ -1,15 +1,1 @@
-PODS:
-  - Firebase (2.5.1)
-  - SwiftHTTP (1.0.5)
-
-DEPENDENCIES:
-  - Firebase
-  - SwiftHTTP (~> 1.0.4)
-
-SPEC CHECKSUMS:
-  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
-  SwiftHTTP: edb45e72f27d1d95d328d2b2c16a61aa94f1e9f7
-
-PODFILE CHECKSUM: 73b256dbf3134aeda015670c0a335e0a88305cfd
-
-COCOAPODS: 1.0.0
+COCOAPODS: 0.39.0
